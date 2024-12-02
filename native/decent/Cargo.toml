@@ -1,0 +1,18 @@
+[package]
+name = "decent"
+# We don't use versioning in the in this crate.
+# Please check the `mix.exs` file at the root of this project for the current version.
+version = "0.1.0"
+authors = []
+edition = "2021"
+
+[lib]
+name = "decent"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+rustler = "0.34.0"
+pgp = "0.14.2"
+rand = "0.8.5"
+thiserror = "2.0.3"

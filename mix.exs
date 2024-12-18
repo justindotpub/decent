@@ -44,6 +44,7 @@ defmodule Decent.MixProject do
       links: %{
         "GitHub" => @source_url
       },
+      licenses: ["Apache-2.0"],
       maintainers: ["Justin Johnson"]
     ]
   end

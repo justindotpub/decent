@@ -28,7 +28,8 @@ defmodule Decent.MixProject do
   defp deps do
     [
       {:rustler_precompiled, "~> 0.6.0"},
-      {:rustler, "~> 0.35.0", optional: true}
+      {:rustler, "~> 0.35.0", optional: true},
+      {:ex_doc, "~> 0.34", only: :dev, runtime: false}
     ]
   end
 

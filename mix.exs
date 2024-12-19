@@ -27,7 +27,7 @@ defmodule Decent.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:rustler_precompiled, "~> 0.6.0"},
+      {:rustler_precompiled, "~> 0.8.2"},
       {:rustler, "~> 0.35", optional: true},
       {:ex_doc, "~> 0.34", only: :dev, runtime: false}
     ]

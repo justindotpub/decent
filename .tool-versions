@@ -1,0 +1,4 @@
+# Make sure this stays in sync with .github/workflows/elixir.yml and infra/ansible/group_vars/all/vars.
+
+erlang 27.2
+elixir 1.18.0-otp-27
